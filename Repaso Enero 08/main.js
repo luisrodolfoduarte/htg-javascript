@@ -9,7 +9,7 @@
 
 function obtenerMenoresQue30(numeros) {
   let resultado = [];
-  let nuemros= 0;
+
 
   for (let indice = 0; indice < numeros.length; indice++) {
     if (numeros[indice] < 30) {
