@@ -43,3 +43,12 @@ function obtenerNombresSeparadosPorComa(listaNombres){
 
   return resultado;
 }
+
+/* Hacer una función que al recibir dos números, genere un número aleatorio entre esos dos números.
+Por ejemplo: Si se ejecutase la función:
+generarNumero(20, 30);
+Debería devolver un número entre 20 y 30. */
+
+function generarNumero(min , max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
