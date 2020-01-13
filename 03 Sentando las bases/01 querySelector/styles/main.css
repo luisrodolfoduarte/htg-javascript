@@ -50,6 +50,34 @@ main {
   font-weight: bold;
 }
 
+.comment--text {
+  font-weight: auto;
+}
+
+.comentarioFav:hover{
+  background-color: aqua;
+  color: red;
+  width: 100%;
+}
+
+
+
+.cambiarLinea:hover{
+  border-color: orange;
+  
+}
+
+
+.comment--ocultarComentario:hover{
+  opacity: 0.5;
+  
+}
+
+.comentarioMayor{
+  opacity: 0;
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --article-bg-color: #333;
@@ -58,3 +86,4 @@ main {
     --font-color: #AAA;
   }
 }
+
