@@ -10,7 +10,7 @@ const inputNombre = document.querySelector('#input-nombre');
 function recibirNombre(event) {
   event.preventDefault();
   console.log("el formulario se ha enviado correctamente");
-  console.log("hola");
+  
   let nombrefinal = "";
   let comentariofinal = "";
   let newTitulo = "";
@@ -41,6 +41,7 @@ function recibirNombre(event) {
   document.querySelector('.comentarios').appendChild(newH );
   document.querySelector('.comentarios').appendChild(newP );
 
+  //limpio el formulario
   formulario[0].value = "";
   formulario[1].value = "";
 }
