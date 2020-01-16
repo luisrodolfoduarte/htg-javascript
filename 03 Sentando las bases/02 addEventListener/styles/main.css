@@ -1,3 +1,4 @@
+/*
 :root {
   --accent-color: #46158C;
   --accent-fg-color: #EEE;
@@ -7,7 +8,7 @@
   --comment-bg-color: #FFF;
   --font-color: #333;
   --link-color: #5F4AE0;
-}
+}*/
 
 * {
   box-sizing: border-box;
@@ -97,7 +98,7 @@ a {
   min-width: 120px;
   padding: 15px;
 }
-
+/*
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -109,3 +110,4 @@ a {
     --link-color: #65C8BC;
   }
 }
+*/
